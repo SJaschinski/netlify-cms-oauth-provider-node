@@ -163,7 +163,7 @@ async function handleRequest(req, res) {
         return;
     }
 
-    // Manually suppoort some aliases
+    // Manually support some aliases
     // TODO Also redirect from one to the other so that one is treated as canonical
     // TODO Abstract this out into a Map or something
     if (ctx.route === '/') {
